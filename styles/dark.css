@@ -10,16 +10,17 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   /* Дублируем переменные для тёмной темы */
-  --header__nav-color: #FF0070;
-  --header__nav-font-family: IBM Plex Mono;
-  --header__title-color: #DB00FF;
-  --header__title-shadow: #FF0070;
-  --header__background-image: url(../images/cover-image-dark.png);
-  --header__headline-description: #000028;
-  --text-block-color: #F1B2CE;
-  --text-block__link-color: #F1B2CE;
+  --header-nav-color: #ff0070;
+  --header-nav-font-family: IBM Plex Mono;
+  --header-title-color: #db00ff;
+  --header-title-shadow: #ff0070;
+  --header-background-image: url(../images/cover-image-dark.png);
+  --header-headline-description: #000028;
+  --text-block-color: #f1b2ce;
+  --text-block-link-color: #f1b2ce;
   --accent-color: #ff0070;
   --section-title-color: #ff0070;
+  --button-hover-color: rgba(255, 0, 112, 0.4);
 }
 
 .theme-dark .page {

@@ -10,16 +10,17 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   /* Переменные для светлой темы */
-  --header__nav-color: #353430;
-  --header__nav-font-family: IBM Plex Mono;
-  --header__title-color: #FFC2E6;
-  --header__title-shadow: #FF8DCB;
-  --header__background-image: url(../images/cover-image-light.png);
-  --header__headline-description: #353430;
+  --header-nav-color: #353430;
+  --header-nav-font-family: IBM Plex Mono;
+  --header-title-color: #ffc2e6;
+  --header-title-shadow: #ff8dcb;
+  --header-background-image: url(../images/cover-image-light.png);
+  --header-headline-description: #353430;
   --text-block-color: #353430;
-  --text-block__link-color: #353430;  
-  --accent-color: #FF8DCB;
+  --text-block-link-color: #353430;
+  --accent-color: #ff8dcb;
   --section-title-color: #353430;
+  --button-hover-color: rgba(50, 49, 45, 0.4);
 }
 
 .theme-light .page {
@@ -28,25 +29,25 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    /* Дублируем переменные светлой темы */   
-    --header__nav-color: #353430;
-    --header__nav-font-family: IBM Plex Mono;
-    --header__title-color: #FFC2E6;
-    --header__title-shadow: #FF8DCB;
-    --header__background-image: url(../images/cover-image-light.png);
-    --header__headline-description: #353430;
+    /* Дублируем переменные светлой темы */
+    --header-nav-color: #353430;
+    --header-nav-font-family: IBM Plex Mono;
+    --header-title-color: #ffc2e6;
+    --header-title-shadow: #ff8dcb;
+    --header-background-image: url(../images/cover-image-light.png);
+    --header-headline-description: #353430;
     --text-block-color: #353430;
-    --text-block__link-color: #353430;  
-    --accent-color: #FF8DCB; 
-    --section-title-color: #353430;    
+    --text-block-link-color: #353430;
+    --accent-color: #ff8dcb;
+    --section-title-color: #353430;
+    --button-hover-color: rgba(50, 49, 45, 0.4);
   }
 
-.theme-auto .header__decorative-element {
-  display: none;
-}  
+  .theme-auto .header__decorative-element {
+    display: none;
+  }
 }
 
 .theme-light .header__decorative-element {
   display: none;
 }
-
