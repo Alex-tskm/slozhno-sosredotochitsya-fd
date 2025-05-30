@@ -2,3 +2,17 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  /* переменные тёмной темы */
+  --header__nav-color: #FF0070;
+  --header__nav-font-family: IBM Plex Mono;
+  --header__title-color: #DB00FF;
+  --header__title-shadow: #FF0070;
+  --header__background-image: url(../images/cover-image-dark.png);
+  --header__headline-description: #000028;
+  --text-block-color: #F1B2CE;
+  --text-block__link-color: #F1B2CE;
+  --accent-color: #ff0070;
+  --section-title-color: #ff0070;
+}
