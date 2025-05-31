@@ -138,6 +138,7 @@
   height: fit-content;
   align-self: center;
   justify-self: end;
+  color: var(--header-headline-description);
 }
 
 .content {
@@ -169,6 +170,7 @@
   line-height: 23.4px;
   letter-spacing: 0%;
   margin-block-end: 10px;
+  color: var(--header-headline-description);
 }
 
 .alternative__text-blocks > .text-block__title {
@@ -213,6 +215,7 @@
   line-height: 23.4px;
   letter-spacing: 0%;
   margin-block-end: 10px;
+  color: var(--header-headline-description);
 }
 
 .picture {
